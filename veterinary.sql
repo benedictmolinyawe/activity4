@@ -70,3 +70,17 @@ VALUES
 (8, 'Richel', 'Vergara', 'Tambo', '09453672987', 'richelvergara33@gmail.com'),
 (9, 'Aira', 'Marquez', 'Sampaguita', '09123472821', 'airamarquez02@gmail.com'),
 (10, 'Felise', 'Hidalgo', 'Antipolo', '09453676785', 'felisehidalgo10@gmail.com');
+
+INSERT INTO animals (animal_id, name, species, breed, age, owner_id)
+VALUES
+(1, 'Munying', 'Cat', 'Persian', 3, 1),
+(2, 'Tambol', 'Dog', 'Aspen', 5, 2),
+(3, 'Bagwis', 'Dog', 'Siberian Husky', 2, 3),
+(4, 'Mutya', 'Cat', 'Siamese', 4, 4),
+(5, 'Lawin', 'Bird', 'Parakeet', 1, 5),
+(6, 'Bantay', 'Dog', 'German Shepherd', 6, 2),
+(7, 'Kutong', 'Rabbit', 'Holland Lop', 2, 6),
+(8, 'Puti', 'Dog', 'Shih Tzu', 3, 1),
+(9, 'Munting', 'Cat', 'British Shorthair', 4, 7),
+(10, 'Dagul', 'Dog', 'Bulldog', 5, 3);
+
