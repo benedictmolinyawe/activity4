@@ -160,3 +160,6 @@ WHERE animalid = (
     WHERE name = 'Blacky'
 );
 
+UPDATE doctors
+SET dlastname = 'Reyes-Gonzales'
+WHERE dfirstname = 'Sofia';
