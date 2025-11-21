@@ -84,3 +84,15 @@ VALUES
 (9, 'Munting', 'Cat', 'British Shorthair', 4, 7),
 (10, 'Dagul', 'Dog', 'Bulldog', 5, 3);
 
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES
+(1, 1, '2025-02-01', 'Skin allergy treatment'),
+(2, 3, '2025-02-03', 'General health assessment'),
+(3, 2, '2025-02-05', 'Deworming'),
+(4, 5, '2025-02-06', 'Vaccination'),
+(5, 4, '2025-02-08', 'Dental cleaning'),
+(6, 7, '2025-02-10', 'Follow-up check-up'),
+(7, 9, '2025-02-12', 'Grooming'),
+(8, 8, '2025-02-15', 'Eye irritation check'),
+(9, 6, '2025-02-18', 'Weight loss evaluation'),
+(10, 10, '2025-02-20', 'Regular check-up');
