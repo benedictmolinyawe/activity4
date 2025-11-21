@@ -138,3 +138,6 @@ VALUES
 
 ALTER TABLE owners
 ADD COLUMN registereddate DATE;
+
+ALTER TABLE invoices
+RENAME COLUMN paymentdate TO paymenttime;
